@@ -117,6 +117,12 @@ DEPRECATED_MSG_ATTRIBUTE("Use initWithContactType:name:relation:tintColor:monogr
 @property (nonatomic, readonly) OCKContactType type;
 
 /**
+  Uniquely identify contact
+ */
+@property (nonatomic, readonly) NSString *identifier;
+
+
+/**
  A string indicating the name for a contact.
  */
 @property (nonatomic, readonly) NSString *name;
